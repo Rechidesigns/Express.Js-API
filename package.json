@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "swagger": "npx swagger-jsdoc -d swagger-config.js -o swagger.json ./routes/*.js"
+  }
+}
+
